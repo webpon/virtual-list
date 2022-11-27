@@ -1,5 +1,7 @@
 # virtual-list
 
+> 实现原理：https://juejin.cn/post/6844903982742110216#heading-3
+
 ## Project setup
 ```
 npm install
