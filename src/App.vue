@@ -4,7 +4,7 @@
     <!-- <VirtualList :listData="data" :itemSize="100"/> -->
 
     <!-- Item不定高度 -->
-    <VirtualList2 :listData="data" v-slot="slotProps">
+    <VirtualList2 :listData="data" v-slot="slotProps" :estimatedItemSize="50">
       <Item :item="slotProps.item" />
     </VirtualList2>
   </div>

@@ -66,7 +66,7 @@ export default {
     scrollEvent() {
       //当前滚动位置
       let scrollTop = this.$refs.list.scrollTop;
-      //此时的开始索引
+      //此时的开始索引  
       this.start = Math.floor(scrollTop / this.itemSize);
       //此时的结束索引
       this.end = this.start + this.visibleCount;
